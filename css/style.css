@@ -1,0 +1,15 @@
+body{
+
+
+    background-image: url('../img/background/keith-misner-h0Vxgz5tyXA-unsplash.jpg'); /* Írd át a kép pontos nevére! */
+    color: brown;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: darkslategrey;
+}
