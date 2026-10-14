@@ -2,7 +2,7 @@ body{
 
 
     background-image: url('../img/background/keith-misner-h0Vxgz5tyXA-unsplash.jpg'); /* Írd át a kép pontos nevére! */
-    color: brown;
+    color:#4d0808;
 
 }
 
@@ -12,4 +12,23 @@ h1 {
 
 a:link, a:visited, a:hover, a:active {
     color: darkslategrey;
+}
+table{
+    border-width:1px ;
+    border-style: solid;
+    border-color: #aa7777;
+    border-collapse: collapse; 
+    margin-left: auto;
+    margin-right: auto;
+}
+td, th{
+    padding: 0.5em;
+}
+.minikep{
+    float: right;
+    width: 400px;
+    margin-left: 20px;
+    border-width:3px;
+    border-color: #4d0808;
+    
 }
