@@ -3,8 +3,11 @@ body{
 
     background-image: url('../img/background/keith-misner-h0Vxgz5tyXA-unsplash.jpg'); /* Írd át a kép pontos nevére! */
     color:#4d0808;
+<<<<<<< HEAD
     box-sizing: border-box;
     border: #4d0808;
+=======
+>>>>>>> f3d64ba02e8dcabd406aeadabb75c04bf780c59c
 
 }
 
@@ -40,8 +43,10 @@ p {
     text-indent: 1cm;
 }
 
-.kepek.kep {
     width: 280px;
+.kepek,.kep{
+    width: 280px;
+    vertical-align: middle;
     background-color: white;
     padding: 10px;
     margin: 5px;
