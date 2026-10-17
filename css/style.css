@@ -1,50 +1,38 @@
-body{
+body {
 
-
-    background-image: url('../img/background/keith-misner-h0Vxgz5tyXA-unsplash.jpg'); /* Írd át a kép pontos nevére! */
-    color:#4d0808;
-<<<<<<< HEAD
-    box-sizing: border-box;
-    border: #4d0808;
-=======
->>>>>>> f3d64ba02e8dcabd406aeadabb75c04bf780c59c
-
+    background-image: url(../img/background/keith-misner-h0Vxgz5tyXA-unsplash.jpg);
+    color: #4d0808
 }
 
 h1 {
+
     text-align: center;
+
 }
 
-a:link, a:visited, a:hover, a:active {
-    color: darkslategrey;
-}
-table{
-    border-width:1px ;
-    border-style: solid;
-    border-color: #aa7777;
-    border-collapse: collapse; 
-    margin-left: auto;
-    margin-right: auto;
-}
-td, th{
-    padding: 0.5em;
-}
-.minikep{
-    float: right;
-    width: 400px;
-    margin-left: 20px;
-    border-width:3px;
-    border-color: #4d0808;
-    
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: darkslategray;
 }
 
 p {
+
     line-height: 1.5;
     text-indent: 1cm;
+
 }
 
-    width: 280px;
-.kepek,.kep{
+.kepek {
+    text-align: center;
+    float: none;
+
+}
+
+.kep {
+
     width: 280px;
     vertical-align: middle;
     background-color: white;
@@ -52,12 +40,37 @@ p {
     margin: 5px;
     border: 1px solid #4d0808;
     box-shadow: 3px 3px 10px #4d0808;
+
 }
+
+table {
+
+    border-collapse: collapse;
+    margin: 0 auto;
+
+}
+
+td {
+
+    border: 1px solid #aa7777;
+    padding: 0.5rem;
+
+
+}
+
+.minikep{
+
+    float: right;
+    width: 400px;
+    margin-left: 20px;
+    border: 3px solid #4d0808;
+
+
+}
+
 main {
-    max-width: 80%;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.2);
-    border: 1px solid #4d0808;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    background-color: rgba(255, 255, 255, 0.6);
 }
